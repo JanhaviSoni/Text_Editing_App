@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>Images/bold.png</file>
+        <file>Images/normal.png</file>
+        <file>Images/subscript.png</file>
+        <file>Images/superscript.png</file>
+    </qresource>
+</RCC>

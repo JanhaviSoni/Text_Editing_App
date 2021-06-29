@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>About Me</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNormal">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionBold"/>
+    <addaction name="actionNormal"/>
+    <addaction name="actionSubscript"/>
+    <addaction name="actionSuperscript"/>
+   </widget>
+   <addaction name="menuNormal"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBold">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/res/Images/bold.png</normaloff>:/res/Images/bold.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionNormal">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/res/Images/normal.png</normaloff>:/res/Images/normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Normal</string>
+   </property>
+  </action>
+  <action name="actionSubscript">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/res/Images/subscript.png</normaloff>:/res/Images/subscript.png</iconset>
+   </property>
+   <property name="text">
+    <string>Subscript</string>
+   </property>
+  </action>
+  <action name="actionSuperscript">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/res/Images/superscript.png</normaloff>:/res/Images/superscript.png</iconset>
+   </property>
+   <property name="text">
+    <string>Superscript</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
