@@ -13,7 +13,7 @@ Steps:
  Installation
  * Install Qt6: 
  * Go to folder "Text_Editing_App" and configure it as project in Qt creator , compile and build and run .
- * 
+ 
 ## What has been done
 * Created a text edit area with Edit menu which contains Bold/Unbold and Subscript/Superscript options, where the user give a text input and use the the Edit menu to use various text editing options which edits the individual text when selected.
 * Created an "About Me" push button which when clicked displays a simple resume showing details.
